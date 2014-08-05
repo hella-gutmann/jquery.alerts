@@ -11,6 +11,20 @@
 	border-radius: 5px;
 }
 
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	color: #666;
+	background: #CCC url(images/title.gif) top repeat-x;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #999;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
 #popup_content {
 	background: 16px 16px no-repeat url(images/info.gif);
 	padding: 1em 1.75em;
@@ -40,23 +54,4 @@
 
 #popup_prompt {
 	margin: .5em 0em;
-}
-
-/* hacks */
-
-#popup_panel input{
-	color: #666;
-	margin: 0px;
-	padding: 2px;
-	display: inline;
-	border: 1px solid #999;
-	width: auto;
-	height: auto;
-	font-size: 12px;
-	background: #CCC url(images/title.gif) top repeat-x;
-	
-}
-
-#popup_panel input:focus{
-	border: 1px solid #999;
 }
